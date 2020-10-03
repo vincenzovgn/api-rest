@@ -1,0 +1,27 @@
+{
+  "name": "api-rest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx mocha ./src/tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vincenzovgn/api-rest.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vincenzovgn/api-rest/issues"
+  },
+  "homepage": "https://github.com/vincenzovgn/api-rest#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "faker": "^5.1.0",
+    "mocha": "^8.1.3"
+  }
+}
