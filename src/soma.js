@@ -4,6 +4,16 @@ function somar(x, y) {
 
 const somarArrow = (x, y) => x + y
 
-const multiplo = (n, mult = 2) => n * mult;
+const multiplo = (n, mult = 2) => {
+  return n * mult
+};
+
+
+const obj = {
+  name: "Daniel",
+  get: function() {
+    return this.name
+  }
+}
 
 module.exports = somar
